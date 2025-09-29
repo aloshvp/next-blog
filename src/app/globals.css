@@ -1,6 +1,21 @@
 @import "./styles/main.css";
+@import "./styles/mainbreaks.css";
 
 :root {
+    --bg: white;
+    --textColor: #000;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
+}
+
+.dark {
+    --bg: #0f172a;
+    --textColor: #ddd;
+    --softBg: #1f273a;
+    --softTextColor: #a6a6a6;
+}
+
+.light {
     --bg: white;
     --textColor: #000;
     --softBg: #f0f0f0;
@@ -34,6 +49,8 @@ a {
     margin: 0 auto;
     padding: 0 80px;
 }
+
+
 
 
 @media screen and (max-width: 1536px) {
