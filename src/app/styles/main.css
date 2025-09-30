@@ -52,6 +52,7 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    display: none;
 }
 
 .burger .line {
@@ -59,5 +60,9 @@
     height: 2px;
     background-color: var(--textColor);
 }
+
+
+
+
 
 /*Footer*/

@@ -9,18 +9,21 @@ const AuthLinks = () => {
 
     return (
         <div>
-            {status === "notauthenticated" ?
-                <Link href="">Login</Link>
-                :
-                (
-                    <>
-                        <Link href="">Logout</Link>
-                        {/* <span>Logout</span> */}
-                    </>
-                )
+            <div className='desktopLogin'>
+                {status === "notauthenticated" ?
+                    <Link href="">Login</Link>
+                    :
+                    (
+                        <>
+                            <Link href="">Logout</Link>
+                            {/* <span>Logout</span> */}
+                        </>
+                    )
 
-            }
-            <div className="burger" onClick={setOpen(!open)}>
+                }
+            </div>
+
+            <div className="burger" onClick={() => setOpen(!open)}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
