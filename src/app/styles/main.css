@@ -76,6 +76,17 @@
     font-size: 36px;
 }
 
+.post {}
+
+.post .imageContainer {}
+
+.post .textContainer {}
+
+.post .textContainer>h2 {}
+
+.post .textContainer>p {}
+
+.post .textContainer>button {}
 
 
 
