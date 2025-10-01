@@ -7,7 +7,7 @@ const Featured = () => {
             <h1 className='title'><b>Lorem ipsum,</b> dolor sit amet consectetur adipisicing elit. </h1>
             <div className="post">
                 <div className="imageContainer">
-                    <Image src="/p1.jpeg" alt="" width={100} height={100} className='image'/>
+                    <Image src="/p1.jpeg" alt="" width={600} height={500} className='image'/>
                 </div>
                 <div className="textContainer">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, reiciendis enim</h2>
