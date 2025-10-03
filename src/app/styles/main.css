@@ -126,6 +126,25 @@
     width: max-content;
 }
 
+.categoryListWrapper {
+    
+}
+
+.categoryListWrapper>h1 {
+    margin: 50px 0;
+}
+
+.categoryListWrapper .categoryList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoryList >a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 
 
