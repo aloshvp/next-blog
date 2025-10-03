@@ -10,6 +10,10 @@
         gap: 15px;
     }
 
+    .featuredWrap .title {
+        font-size: 72px;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,12 +25,25 @@
         text-align: left;
     }
 
+    .featuredWrap .title {
+        font-size: 64px;
+    }
+
+    .post .imageContainer {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     .logo {
         font-size: 24px;
     }
+
+    .featuredWrap .title {
+        font-size: 48px;
+    }
+
 
 }
 
@@ -43,5 +60,9 @@
 
     .desktopLogin {
         display: none;
+    }
+
+    .featuredWrap .title {
+        font-size: 36px;
     }
 }
