@@ -14,6 +14,10 @@
         font-size: 72px;
     }
 
+    .categoryList .categoryItem {
+        width: 20%;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -32,6 +36,9 @@
     .post .imageContainer {
         display: none;
     }
+    .categoryList .categoryItem {
+        width: 25%;
+    }
 
 }
 
@@ -42,6 +49,9 @@
 
     .featuredWrap .title {
         font-size: 48px;
+    }
+    .categoryList .categoryItem {
+        width: 45%;
     }
 
 
@@ -64,5 +74,8 @@
 
     .featuredWrap .title {
         font-size: 36px;
+    }
+    .categoryList .categoryItem {
+        width: 100%;
     }
 }

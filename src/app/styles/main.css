@@ -136,6 +136,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .categoryList .categoryItem {
@@ -146,6 +147,7 @@
     width: 15%;
     height: 80px;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .categoryList .categoryItem>img {
