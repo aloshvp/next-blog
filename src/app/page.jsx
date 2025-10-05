@@ -8,8 +8,11 @@ export default function Home() {
     <div className='container'>
       <Featured />
       <CategoryList />
-      <CardList />
-      <Menu />
+      <div className="content">
+        <CardList />
+        <Menu />
+      </div>
+
     </div>
   );
 }
